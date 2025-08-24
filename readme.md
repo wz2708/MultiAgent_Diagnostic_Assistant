@@ -1,7 +1,8 @@
 # MultiAgents for Medical Diagnosis  
 *An audit-ready, multi-agent framework for clinical diagnosis with dual-RAG retrieval and conditional reviewer gating.*
-![Introduction Slides](docs/Diagnostic_MultiAgents.pptx)  
-![Paper](docs/Technical_report.pdf)  
+
+[Introduction Slides](docs/Diagnostic_MultiAgents.pptx)  
+[Paper](docs/Technical_report.pdf)  
 ---
 
 ## 🌟 Motivation
@@ -205,3 +206,4 @@ MultiAgents/
 └── README.md # Project documentation
 
 ```
+
