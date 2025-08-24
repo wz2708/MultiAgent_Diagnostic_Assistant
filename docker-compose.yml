@@ -1,0 +1,17 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: multiagents-clinic:latest
+    container_name: multiagents-clinic
+    ports:
+      - "7860:7860"
+    env_file:
+      - .env
+    volumes:
+      - ./:/MultiAgents
+    command: >
+      bash -lc "streamlit run app/web_demo.py
+                --server.port 7860
+                --server.address 0.0.0.0"

@@ -1,0 +1,7 @@
+{
+  "num_cases": 212,
+  "top1_accuracy": 0.4528,
+  "top2_accuracy": 0.1415,
+  "top3_accuracy": 0.0613,
+  "mean_mrr": 0.544
+}

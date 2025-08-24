@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Venvs
+venv/
+.env/
+
+# Build/Test Artifacts
+dist/
+build/
+*.egg-info/
+
+# Data/Outputs (you可以改名)
+outputs/
+output/
+case_out/
+umls_out/
+*.index
+*.pkl
+*.sqlite
+.parquet
+.cache/
+
+# Git
+.git/
+.gitignore
+
+# OS
+.DS_Store
+Thumbs.db
